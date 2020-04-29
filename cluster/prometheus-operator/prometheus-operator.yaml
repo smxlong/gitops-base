@@ -9,4 +9,15 @@ spec:
     git: git@github.com:helm/charts.git
     path: stable/prometheus-operator
     ref: 999bd186ce03a54611b65a946bc5357140ea0b85
-  values: {}
+  values:
+    prometheus:
+      ingress:
+        enabled: true
+        hosts:
+          - prometheus.dev-minecraft.k.nnwsrv.com
+
+    grafana:
+      ingress:
+        enabled: true
+        hosts:
+          - grafana.dev-minecraft.k.nnwsrv.com
