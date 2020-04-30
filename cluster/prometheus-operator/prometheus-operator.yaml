@@ -14,10 +14,10 @@ spec:
       ingress:
         enabled: true
         hosts:
-          - prometheus.dev-minecraft.k.nnwsrv.com
+          - prometheus.us-west-1.k.nnwsrv.com
 
     grafana:
       ingress:
         enabled: true
         hosts:
-          - grafana.dev-minecraft.k.nnwsrv.com
+          - grafana.us-west-1.k.nnwsrv.com
