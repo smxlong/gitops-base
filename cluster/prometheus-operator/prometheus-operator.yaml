@@ -12,7 +12,7 @@ spec:
   values:
     prometheus:
       ingress:
-        enabled: true
+        enabled: false
         hosts:
           - prometheus.us-west-1.k.nnwsrv.com
 
