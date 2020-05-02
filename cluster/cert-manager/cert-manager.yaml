@@ -7,6 +7,6 @@ spec:
   releaseName: prometheus-operator
   chart:
     repository: https://charts.jetstack.io
-    name: jetstack/cert-manager
+    name: cert-manager
     version: v0.14.3
   values: {}
