@@ -4,7 +4,7 @@ metadata:
   name: cert-manager
   namespace: cert-manager
 spec:
-  releaseName: prometheus-operator
+  releaseName: cert-manager
   chart:
     repository: https://charts.jetstack.io
     name: cert-manager
